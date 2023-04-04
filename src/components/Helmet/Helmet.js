@@ -2,7 +2,7 @@ import React from "react";
 import CommonSection from "../UI/CommonSection";
 
 const Helmet = (props) => {
-  document.title = "Azizmarket - " + props.title;
+  document.title = "AssemMarket - " + props.title;
   return (
     <>
       <CommonSection title={props.title} />
